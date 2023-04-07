@@ -1,0 +1,63 @@
+.header-img {
+    border: 2px solid black;
+    width: 315px;
+    height: 315px;
+  }
+  
+  .header-info {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .header-info > h3 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header-info > p {
+    font-size: 12px;
+    color: #F5F5F5;
+  }
+  
+  .header-info p:nth-child(2) {
+    color: #F3BF99;
+  }
+  
+  .header-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .header-buttons > button {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .email-btn, .linkedin-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    background-color: #fff;
+    color: black;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .linkedin-btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .email-btn svg, .linkedin-btn svg {
+    margin-right: 10px;
+  }

@@ -1,0 +1,14 @@
+.footer {
+    height: 65px;
+    width: 315px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-icons {
+    font-size: 35px;
+    margin-right: 20px;
+    color: #918E9B;
+    cursor: pointer;
+  }
